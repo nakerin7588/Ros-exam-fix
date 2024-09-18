@@ -36,7 +36,7 @@ to source setup-file from ros
 then `colcon build` to build up the project 
 
 then you might have too install some additional libraly for this project 
-* pyyaml for read or edit or etc .yaml
+
 ```
 colcon build
 ```
@@ -57,12 +57,12 @@ to open the most of the project file and
 ros2 run saifa_pack teleop_turtle.py
 ```
 to open tele-operation file to control the turtle in this project 
-## If you have an error when launch turtle_1.launch.py use this command below to fix it
+## If you have an error when launch turtle_1.launch.py use this command below to fix it or if the error of the node sum_controller occur do this
 ```
 cd
 ```
 ```
-git clone https://github.com/nakerin7588/RoboticsDev.git
+git clone https://github.com/nakerin7588/RoboticsDev.git -b main_2
 ```
 ```
 source RoboticsDev/install/setup.bash
