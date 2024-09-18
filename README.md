@@ -62,12 +62,18 @@ to open tele-operation file to control the turtle in this project
 cd
 ```
 ```
-git clone https://github.com/nakerin7588/RoboticsDev.git -b main_2
+git clone https://github.com/nakerin7588/RoboticsDev.git
 ```
 ```
 source RoboticsDev/install/setup.bash
 ```
+```
+source Ros_exam/install/setup.bash
+```
 after this try to launch new turtle_1.launch.py
+```
+ros2 launch saifa_pack turtle_1.launch.py
+```
 <br>
 
 then you might have too install some additional libraly for this project 
