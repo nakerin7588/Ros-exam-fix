@@ -5,6 +5,11 @@ In this project we will develop a little fun turtle project using simple libraly
 * [Ubuntu](https://releases.ubuntu.com/jammy/)
 * [ROS_Humble](https://docs.ros.org/en/humble/Installation.html)
 
+## This repository use for read the README.md only do not clone src for check the answer
+```
+https://github.com/nakerin7588/Ros-exam-fix.git
+```
+
 ## Basic knowlegde and How to use 
 first you need to clone your ptoject to your computer using command 
 
@@ -28,6 +33,8 @@ to source setup-file from ros
 
 then `colcon build` to build up the project 
 
+then you might have too install some additional libraly for this project 
+* pyyaml for read or edit or etc .yaml
 ```
 colcon build
 ```
