@@ -240,24 +240,6 @@ So to spawn a pizza from the turtle position we need get the live position of th
   ```
   ros2 param get <node_name> <parameter_name>
   ```
-  to check the value of parameter
-* Launch file and Luanch file argument <br>
-  ```
-  ros2 launch saifa_pack turtle_1.launch.py
-  ```
-  for change the name of turtle teleop via launch file use this command instead.
-  ```
-  ros2 launch saifa_pack turtle_1.launch.py turtle1_name:=<turtle_teleop_name>
-  ```
-  Example:
-  ```
-  ros2 launch saifa_pack turtle_1.launch.py turtle1_name:="InwZa"
-  ```
-  with this command above you will get the turtle teleop name "InwZa".
-  <br>
-   <br>
-  ![image](https://github.com/user-attachments/assets/9b35b9e4-46b5-4389-82a9-3c767b5e162d)
-
   launch file is use to run a lot of file in one comand line such as in this project we use lauch file name `turtle_1.launch.py` in the saifa_pack (package) and in this lauch file consisting of file or executeing file such as
 
   - turtlesim_plus_node -> the turtle sim we use ( the black background when terminal open)
