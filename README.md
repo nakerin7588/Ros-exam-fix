@@ -9,7 +9,7 @@ In this project we will develop a little fun turtle project using simple libraly
 first you need to clone your ptoject to your computer using command 
 
 ```
-git clone https://github.com/Saifa36622/Ros_exam.git -b saifa_main_2
+git clone https://github.com/Saifa36622/Ros_exam.git
 ```
 paste this in the terminal or powershell of your prefer and then use this command to navigate to the working directory
 
@@ -31,7 +31,7 @@ then `colcon build` to build up the project
 ```
 colcon build
 ```
-then
+then every time you open new terminal or build workspace run this command in this workspace directory
 ```
 source install/setup.bash
 ```
