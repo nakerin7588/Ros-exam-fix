@@ -57,7 +57,17 @@ to open the most of the project file and
 ros2 run saifa_pack teleop_turtle.py
 ```
 to open tele-operation file to control the turtle in this project 
-
+## If you have an error when launch turtle_1.launch.py use this command below to fix it
+```
+cd
+```
+```
+git clone https://github.com/nakerin7588/RoboticsDev.git
+```
+```
+source RoboticsDev/install/setup.bash
+```
+after this try to launch new turtle_1.launch.py
 <br>
 
 then you might have too install some additional libraly for this project 
