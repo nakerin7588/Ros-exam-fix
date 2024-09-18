@@ -194,7 +194,7 @@ So to spawn a pizza from the turtle position we need get the live position of th
   ```
   #### Keyblind 
   - u to save the pizza position (to .yaml file) 
-  - c to clear all the pizza( the turtle will eat all the pizza that not been save)
+  - c to clear all the pizza( the turtle will eat all the pizza that not been save but if you spawn the pizza to much narrow,the turtle can not eat all that pizza )
 
   when you successly save this log going to show up to indicate that save have been complete 
   
