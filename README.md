@@ -207,6 +207,7 @@ So to spawn a pizza from the turtle position we need get the live position of th
   ![image](https://github.com/user-attachments/assets/512ed4b3-0df9-4aff-8122-d6d55e992c91)
 
   the turtle going to start eating all the pizza
+  ## If the warning log show on the terminal you need to type any move key for 2 times to enable you to move the turtle but if the turtle do not finish its task you will not enable to control that turtle such as the turtle is eating you can not move the turtle
 * Modify ROS Parameters Using RQT. In this project we have main parameter is for pizza node call max_pizza that tell we how much pizza can generate on 1 turtle ana other parameter that we can also use are controller gain of turtles.
 
   Once RQT is launched, follow these steps to visualize and modify the parameters:
