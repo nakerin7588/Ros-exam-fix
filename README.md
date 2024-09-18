@@ -22,6 +22,8 @@ paste this in the terminal or powershell of your prefer and then use this comman
 cd Ros_exam
 ```
 then do hard reset for this workspace to change commit version to previous
+you can see in the commit log that this commit is commit before main and 
+before timerun out 
 ```
 git reset --hard 33c3e935743a18b7e47cc7b2e5cdf2c9ad8c65b3
 ```
